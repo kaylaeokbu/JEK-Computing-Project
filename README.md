@@ -1,2 +1,3 @@
 # JEK-Computing-Project
 This repository is for the use of a computing project in Spring 2026 Computing II course. This project analyzes microbiology experiment data to determine whether honey or garlic enhances the effectiveness of the antibiotic vancomycin against Staphylococcus aureus. Measurements of inhibition zones from Kirby-Bauer disk diffusion tests will be stored in an SQL database and analyzed using Python to calculate averages and generate graphs comparing control, garlic, and honey treatments. The results and analysis will be presented in a Quarto document to demonstrate how computational tools can be used to organize and analyze scientific data.
+Emily will be coding. 
