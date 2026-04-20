@@ -1,0 +1,28 @@
+---
+title: "Project Progress Report"
+format: html
+---
+
+## Project Goals
+This project analyzes microbiology experiment data to determine whether honey or garlic enhances the effectiveness of the antibiotic vancomycin against Staphylococcus aureus. Measurements of inhibition zones from Kirby-Bauer disk diffusion tests will be stored in an SQL database and analyzed using Python to calculate averages and generate graphs comparing control, garlic, and honey treatments. The results and analysis will be presented in a Quarto document to demonstrate how computational tools can be used to organize and analyze scientific data.
+Example: collect and analyze data, insert data, and analyze based on proceeding statistics 
+
+## Resources Consulted
+- List any websites, tools, or datasets you used
+Data Set: vancomycin alone, vancomycin + honey, vancomycin + garlic, control
+
+
+
+## Progress So Far
+So far, we have:
+- Created the GitHub repository
+- Discussed project ideas
+- Performed the experiment by plating staphylococcus aureus on agar plates with different concentrations of honey and garlic and vancomycin antibiotic disk
+- Kirby Bauer assay was done and the inhibition zones were measured
+
+## Contributions
+
+- Your Name: Describe what you did
+- Jlaine Tindall: Planning the experimental project, performing all lab tasks, collecting data by measuring inhibition zone, and contributing to the final report
+- Emiy Eary: Analyzer of all data, contributing to the final report
+- Kayla Easter: Data manager, insert and sort data, contributing to the final report
