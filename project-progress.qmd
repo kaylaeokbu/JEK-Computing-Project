@@ -26,3 +26,32 @@ So far, we have:
 - Jlaine Tindall: Planning the experimental project, performing all lab tasks, collecting data by measuring inhibition zone, and contributing to the final report
 - Emiy Eary: Analyzer of all data, contributing to the final report
 - Kayla Easter: Data manager, insert and sort data, contributing to the final report
+
+## Data Analysis
+
+```{python}
+#| echo: false
+import sqlite3
+import pandas as pd
+import matplotlib.pyplot as plt
+
+conn = sqlite3.connect("experiment.db")
+df = pd.read_sql_query("SELECT * FROM results", conn)
+
+df["average"] = df[["trial1", "trial2", "trial3"]].mean(axis=1)
+
+df
+plt.bar(df["treatment"], df["average"])
+plt.xticks(rotation=45)
+plt.ylabel("Average Inhibition Zone (mm)")
+plt.title("Effect of Honey and Garlic on Vancomycin")
+plt.show()
+```
+
+## Results
+
+The garlic treatment (5%) produced the largest inhibition zone, indicating the strongest antibacterial effect. Honey treatments showed little difference compared to vancomycin alone.
+
+## Conclusion
+
+Garlic significantly enhances the effectiveness of vancomycin against *Staphylococcus aureus*, while honey does not show a meaningful improvement.
