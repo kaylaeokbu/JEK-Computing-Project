@@ -8,8 +8,9 @@ This project analyzes microbiology experiment data to determine whether honey or
 Example: collect and analyze data, insert data, and analyze based on proceeding statistics 
 
 ## Resources Consulted
-- List any websites, tools, or datasets you used
 Data Set: vancomycin alone, vancomycin + honey, vancomycin + garlic, control
+https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/documents/368/488/70191d at.pdf?srsltid=AfmBOooqz-p1YKVKu_wv8TVMLDgrUeYlE8eqpaskgecns6M-wdUnEfTq https://hardydiagnostics.com/blog/how-to-do-a-kirby-bauer-disk-diffusion-antimicrobial susceptibility-test
+
 
 
 
