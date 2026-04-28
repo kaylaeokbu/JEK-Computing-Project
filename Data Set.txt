@@ -1,7 +1,7 @@
 		Inhibition Zones (mm)			
-Treatment	           Concentration	Trial 1	Trial 2	Trial 3 	avg
-Vacomycin alone	       0	           20	      19	   18	      19
-Vancomycin + Honey	   30%	         20      	19	   19	      19.33333333
-Vancomycin + Garlic	   5%	           29	      29	   28	      28.66666667
+Treatment	           Concentration Trial 1 Trial 2 Trial 3   avg
+Vacomycin alone	       0	           20	    19	   18	    19
+Vancomycin + Honey	   30%	           20      	19	   19	    19.33333333
+Vancomycin + Garlic	   5%	           29	    29	   28	    28.66666667
 Vancomycin + Garlic	   1%	           20     	19	   18.5	    19.16666667
-Vancomycin + Honey	   20%	         19	      19	   18.5	    18.83333333
+Vancomycin + Honey	   20%	           19	    19	   18.5	     18.83333333
